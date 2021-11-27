@@ -34,8 +34,3 @@ from playground.card_games.card_games import get_rounds
 ])
 def test_get_rounds(data, expected):
     assert get_rounds(data) == expected
-
-
-@pytest.mark.xfail
-def test_divide_by_zero():
-    assert 1 / 0 == 1
