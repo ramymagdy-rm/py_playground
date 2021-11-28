@@ -37,3 +37,8 @@ def test_card_average(data, expected):
 def test_invalid_division():
     with pytest.raises(ZeroDivisionError):
         card_average([])
+
+
+# @pytest.mark.xfail
+def test_dev_by_zero():
+    assert 1 / 0 == 1
