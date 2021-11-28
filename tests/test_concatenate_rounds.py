@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from playground.card_games.card_games import concatenate_rounds
+from playground.card_games import concatenate_rounds
 
 
 def test_concatenate_rounds():

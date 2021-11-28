@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 import pytest
-from playground.card_games.card_games import card_average
+from playground.card_games import card_average
 
 
 @pytest.mark.parametrize("data, expected", [

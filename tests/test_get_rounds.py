@@ -21,7 +21,7 @@
 # SOFTWARE.
 
 import pytest
-from playground.card_games.card_games import get_rounds
+from playground.card_games import get_rounds
 
 
 @pytest.mark.parametrize("data, expected", [

@@ -20,7 +20,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-from playground.card_games.card_games import list_contains_round
+from playground.card_games import list_contains_round
 
 
 def test_list_contains_round():
