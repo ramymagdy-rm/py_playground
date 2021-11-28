@@ -39,6 +39,6 @@ def test_invalid_division():
         card_average([])
 
 
-# @pytest.mark.xfail
+@pytest.mark.xfail
 def test_dev_by_zero():
     assert 1 / 0 == 1
